@@ -54,7 +54,7 @@ creaCard.addEventListener("submit", function (pippo) {
   })
     .then((res) => {
       if (res.ok) {
-        alert((idProduct = "PRODOTTO CREATO"));
+        alert(("PRODOTTO CREATO"));
         location.assign("index.html");
       } else {
         alert("OPS C'E' STATO UN ERRORE");
